@@ -6,6 +6,7 @@ Coming soon to your phone! Summer 2017
 * Shervin
 * Sean
 * Ellie
+* Rob
 
 Built with love!
 
