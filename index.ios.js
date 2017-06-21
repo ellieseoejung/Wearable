@@ -20,7 +20,7 @@ export default class ThisProject extends Component {
           Welcome to Wearable!
         </Text>
         <Text style={styles.instructions}>
-          Wanna get started?
+          Wanna get started? 
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
