@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class ThisProject extends Component {
+export default class Wearable extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -20,7 +20,7 @@ export default class ThisProject extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.android.js
+          Wanna get started? 
         </Text>
         <Text style={styles.instructions}>
           Double tap R on your keyboard to reload,{'\n'}
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ThisProject', () => ThisProject);
+AppRegistry.registerComponent('Wearable', () => Wearable);
