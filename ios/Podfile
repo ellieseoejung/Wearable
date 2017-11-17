@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'wearableapp' do
+
+  pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'BatchedBridge', # Required For React Native 0.45.0+
+    'Core'
+  ]
+  pod 'Firebase/Core'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Database'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Storage'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
+  target 'wearableappTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
